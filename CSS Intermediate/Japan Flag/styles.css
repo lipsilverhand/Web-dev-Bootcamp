@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.flag {
+    background-color: white;
+    width: 800px;
+    height: 500px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 360px;
+}
+
+.circle {
+    background-color: red;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 275px;
+}
