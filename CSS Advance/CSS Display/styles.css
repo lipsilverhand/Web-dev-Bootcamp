@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.box {
+    margin-top: 80px;
+}
+
+.header {
+    color: rgb(226, 164, 236);
+    text-align: center;
+    font-weight: bolder;
+}
+
+.image {
+    width: 25%;
+    float: left;
+    margin-right: 10px;
+}
+
+.main {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.main2 {
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 15px;
+
+}
+
+.middle {
+    padding-left: 350px;
+    padding-right: 350px;
+    margin-top: 20px;
+}
+
+.copy {
+    color: rgb(219, 177, 243);
+    clear: left;
+    text-align: center;
+    padding-top: 80px;
+}
