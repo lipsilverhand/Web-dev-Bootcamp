@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.logo {
+    width: 10%;
+    position: relative;
+    bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.box {
+    padding: 20px;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 20px;
+}
+
+.span1 {
+    color: rgb(146, 58, 184);
+}
+
+.span2 {
+    color: rgb(241, 13, 131);
+}
+
+.detail {
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.detail_1 {
+    margin-right: 20px;
+}
+
+.detail_2 {
+    
+}
+
+.art1 {
+    border: 10px solid black;
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+}
+
+.art2 {
+    border: 10px solid black;
+    border-radius: 50%;
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+}
+
+.blue {
+    margin-bottom: 10px;
+}
+
+.dark {
+    margin-bottom: 10px;
+}
+
+
+
+.para1 {
+    font-size: 1.2rem;
+}
+
+.para2 {
+    font-size: 1.2rem;
+}
+
+.footer {
+    clear: left;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 100px;
+}
+
+
