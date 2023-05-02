@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner {
+    display: flex;  
+    gap: 15px;
+    padding: 40px;
+}
+
+.one {
+    background-color: beige;
+}
+
+.two {
+    background-color: beige;
+}
+
+.three {
+    background-color: beige;
+}
+
