@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    
+}
+
+.banner {
+    text-align: center;
+    background-color: black;
+    color: white;
+    justify-content: center;
+
+}
+
+.plans {
+    display: flex;
+    gap: 30px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.logo {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-right: 10px;
+    border-color: white;
+}
+
+.table {
+    flex: 1;
+    max-width: 400px;
+    border:2px solid white;
+}
+
+.type {
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    color: rgb(137, 135, 135);
+}
+
+ul {
+    list-style: none;
+    clear: left;
+    margin-bottom: 40px;
+}
+
+ul li {
+    font-size: 18px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    background-color: black;
+    border-color: white ;
+    width: 170px;
+    height: 40px;
+    border-radius: 2px;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border-color: white;
+    color: white;
+    width: 100px;
+    height: 43px;
+    cursor: pointer;
+    border-radius: 2px;
+    border-style: solid;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(137, 135, 135);
+    font-weight: bold;
+}
+
+.coupon {
+    margin-bottom: 10px;
+}
+
+.quanlity {
+    margin-bottom: 10px;
+}
+
+.buy {
+    margin-bottom: 13px;
+}
+
+.buy-button {
+    background-color: white;
+    border-color: white;
+    color: black;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.buy-button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+
+}
+
+@media (max-width: 1250px) {
+    .plans {
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-right: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .type {
+        padding: 10px;
+    }
+
+    .input {
+        padding: 5px;
+    }
+
+    ul li {
+        font-size: 17;
+    }
+
+    .table {
+        width: 100%;
+    }
+}
+
