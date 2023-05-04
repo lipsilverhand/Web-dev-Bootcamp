@@ -78,7 +78,7 @@ input {
     text-align: center;
     background-color: black;
     border-color: white ;
-    width: 190px;
+    width: 220px;
     height: 40px;
     border-radius: 2px;
     border-style: solid;
@@ -90,7 +90,7 @@ button {
     background-color: black;
     border-color: white;
     color: white;
-    width: 100px;
+    width: 130px;
     height: 43px;
     cursor: pointer;
     border-radius: 2px;
@@ -139,7 +139,7 @@ span {
 }
 
 .number {
-    width: 85px;
+    width: 86px;
 }
 
 @media (max-width: 1250px) {
