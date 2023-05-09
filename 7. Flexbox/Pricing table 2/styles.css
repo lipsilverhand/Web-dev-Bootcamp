@@ -5,10 +5,7 @@
 
 body {
     background-color: black;
-}
-
-.container {
-    
+    width: 100%;
 }
 
 .banner {
@@ -19,16 +16,6 @@ body {
 
 }
 
-.plans {
-    display: flex;
-    gap: 30px;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    color: white;
-}
-
 .logo {
     width: 140px;
     height: 140px;
@@ -37,8 +24,21 @@ body {
     border-color: white;
 }
 
+.plans {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    padding: 10px;
+}
+
 .table {
     flex: 1;
+    flex-wrap: wrap;
     max-width: 400px;
     border:2px solid white;
     padding: 10px;
@@ -72,6 +72,7 @@ ul li {
 
 .input {
     text-align: center;
+    margin-top: auto;
 }
 
 input {
@@ -120,7 +121,7 @@ span {
 }
 
 .buy {
-    margin-bottom: 13px;
+    margin-bottom: 9px;
 }
 
 .buy-button {
