@@ -148,14 +148,19 @@ span {
 
 @media (max-width: 1250px) {
     body {
-        padding: 10px;
+        padding: 10px 0;
     }
 
     .plans {
         flex-direction: column;
         height: 100%;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .table {
         width: 100%;
-        padding: 20px;
     }
 
     .logo {
@@ -182,8 +187,5 @@ span {
         font-size: 17;
     }
 
-    .table {
-        width: 100%;
-    }
 }
 
