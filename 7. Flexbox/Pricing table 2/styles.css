@@ -10,14 +10,6 @@ body {
     padding-top: 100px;
 }
 
-.banner {
-    text-align: center;
-    background-color: black;
-    color: white;
-    justify-content: center;
-
-}
-
 .logo {
     width: 140px;
     height: 140px;
@@ -43,7 +35,7 @@ body {
     flex-wrap: wrap;
     max-width: 450px;
     border:2px solid white;
-    padding: 10px;
+    padding: 1px;
 }
 
 .type {
@@ -70,7 +62,7 @@ ul li {
     font-size: 18px;
     padding-left: 10px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
 }
 
 .input {
@@ -101,7 +93,6 @@ button {
     border-style: solid;
     font-weight: bold;
     transition: 0.5s;
-    margin-top: auto;
 }
 
 button:hover {
