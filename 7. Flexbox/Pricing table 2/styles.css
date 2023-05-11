@@ -83,7 +83,7 @@ input {
     background-color: black;
     border-color: white ;
     width: 220px;
-    height: 40px;
+    height: 43px;
     border-radius: 2px;
     border-style: solid;
     color: white;
@@ -157,7 +157,7 @@ span {
         height: 100%;
         justify-content: center;
         align-items: center;
-        padding: 0px;
+        padding: 10px;
     }
 
     .table {
