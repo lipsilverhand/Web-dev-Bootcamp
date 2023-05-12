@@ -14,7 +14,7 @@ body {
     width: 140px;
     height: 140px;
     float: left;
-    margin-right: 20px;
+    margin-right: 12px;
     border-color: white;
 }
 
@@ -32,7 +32,6 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     max-width: 450px;
     border:2px solid white;
     padding: 1px;
@@ -40,8 +39,12 @@ body {
 
 .type {
     margin-bottom: 30px;
-    padding: 30px;
+    padding: 20px;
     height: 150px;
+}
+
+.name {
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -55,7 +58,8 @@ h2 {
 ul {
     list-style: none;
     clear: left;
-    padding: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 ul li {
@@ -67,7 +71,6 @@ ul li {
 .input {
     text-align: center;
     margin-top: auto;
-    margin-bottom: 10px;
 }
 
 input {
@@ -116,7 +119,7 @@ span {
 }
 
 .buy {
-    margin-bottom: 9px;
+    margin-bottom: 20px;
 }
 
 .buy-button {
@@ -135,15 +138,7 @@ span {
 }
 
 .number {
-    width: 116px;
-}
-
-.code {
-    width: 250px;
-}
-
-.discord {
-    width: 250px;
+    width: 86px;
 }
 
 @media (max-width: 1250px) {
