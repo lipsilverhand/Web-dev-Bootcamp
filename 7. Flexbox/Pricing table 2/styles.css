@@ -40,11 +40,11 @@ body {
 .type {
     margin-bottom: 30px;
     padding: 20px;
-    height: 150px;
+    height: 160px;
 }
 
 .name {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 h1 {
@@ -52,13 +52,14 @@ h1 {
 }
 
 h2 {
+    font-size: 23px;
     color: rgb(137, 135, 135);
 }
 
 ul {
     list-style: none;
     clear: left;
-    padding: 20px;
+    padding: 0 20px;
     margin-bottom: 10px;
 }
 
@@ -163,11 +164,11 @@ span {
     }
 
     h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .type {
