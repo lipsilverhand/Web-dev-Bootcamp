@@ -1,0 +1,38 @@
+.main {
+    background-color: beige;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+}
+
+.im {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.im:hover {
+    width: 220px;
+    height: 220px;
+}
+
+p {
+    margin-left: 75px;
+}
+
+.copy {
+    margin-right: 60px;
+    margin-top: 40px;
+}
