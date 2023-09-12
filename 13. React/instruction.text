@@ -1,0 +1,9 @@
+Create:
+
+npx create-react-app (name)
+
+Start:
+
+npm start
+
+*Change to the righ directory

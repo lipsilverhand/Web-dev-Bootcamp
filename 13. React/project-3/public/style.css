@@ -8,7 +8,7 @@
 }
 
 .heading {
-
+    
 }
 
 .list {
@@ -23,16 +23,47 @@
     border: 1px solid black;
 }
 
-.im:hover {
-    width: 220px;
-    height: 220px;
-}
+
 
 p {
     margin-left: 75px;
+    font-weight: bold;
 }
 
 .copy {
     margin-right: 60px;
     margin-top: 40px;
+}
+
+@media (max-width: 680px) {
+    
+    .main {
+        height: 160vh;
+        margin: 0;
+        padding-top: 0px;
+        justify-content: start;
+    }
+    .im {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sep {
+        margin-bottom: 20px;
+    }
+
+    p {
+        padding-left: 90px;
+    }
+
+    .copy {
+        align-items: center;
+        padding-left: 10px;
+        
+    }
 }
