@@ -1,0 +1,38 @@
+Difference between JSON and JS:
+- JSON is more simple than JS
+
+--JS object:
+const object {
+    name: "Phuoc Huynh",
+    age: 24,
+    location: Olympia,
+    education: [
+        {
+            school: "SPSCC",
+            degree: "Associate in Arts",
+        },
+        {
+            school: "Evergreen State College",
+            degree: "Bachelor of Science in CS",
+        },
+
+    ]
+};
+
+--JSON:
+{
+    name: "Phuoc Huynh",
+    age: 24,
+    location: Olympia,
+    education: [
+        {
+            school: "SPSCC",
+            degree: "Associate in Arts",
+        },
+        {
+            school: "Evergreen State College",
+            degree: "Bachelor of Science in CS",
+        },
+
+    ]
+}
