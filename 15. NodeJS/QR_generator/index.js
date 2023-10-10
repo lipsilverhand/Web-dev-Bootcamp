@@ -12,7 +12,7 @@ inquirer
   .then((answers) => {
     const url = answers.URL;
     var qr_svg = qr.image(url);
-    qr_svg.pipe(fs.createWriteStream('mesmere.png'));
+    qr_svg.pipe(fs.createWriteStream('x.png'));
   })
   .catch((error) => {
     if (error.isTtyError) {
