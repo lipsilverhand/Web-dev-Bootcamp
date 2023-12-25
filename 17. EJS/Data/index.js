@@ -11,7 +11,7 @@ app.get("/", (req,res) => {
 });
 
 app.post("/submit", (req,res) => {
-    const full = req.body["fname"] + req.body["lname"];
+    const full = req.body["fname"] + " " + req.body["lname"];
     const count = req.body["fname"].length + req.body["lname"].length;
     res.render("index.ejs", {count, full});
 });

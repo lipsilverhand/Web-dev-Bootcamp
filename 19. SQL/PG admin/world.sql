@@ -1,0 +1,6 @@
+CREATE TABLE CAPITALS (
+	id SERIAL PRIMARY KEY,
+	country VARCHAR(40),
+	capital VARCHAR(40)
+
+);
