@@ -1,5 +1,0 @@
-CREATE TABLE FLAGS (
-	id SERIAL PRIMARY KEY,
-	name VARCHAR(45),
-	flag TEXT
-);
